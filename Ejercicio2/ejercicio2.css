@@ -1,0 +1,32 @@
+@import '../variables.css';
+body {
+    background-color: var(--bg-color);
+    font-size: .7em;
+}
+
+
+/*Cabecera*/
+.cabecera {
+    background-color: var(--gray-1);
+    color: var(--text-color-dark);
+}
+
+/*Primera Fila*/
+.f1c1, .f1c3 {
+    background-color: var(--gray-3);
+    color: var(--text-color-dark);
+}
+.f1c2 {
+    background-color: var(--gray-5);
+    color: var(--text-color-dark);
+}
+
+/*Segunda Fila*/
+.f2c1, .f2c3, .f2c4, .f2c6 {
+    background-color: var(--gray-4);
+    color: var(--text-color-dark);
+}
+.f2c2, .f2c5 {
+    background-color: var(--gray-6);
+    color: var(--text-color-dark);
+}

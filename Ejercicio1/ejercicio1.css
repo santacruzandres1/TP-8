@@ -1,0 +1,72 @@
+@import '../variables.css';
+body {
+    background-color: var(--bg-color);
+    font-size: .5em;
+    min-width: 510px;
+}
+
+
+/*Cabecera*/
+.cabecera {
+    background-color: var(--gray-1);
+    color: var(--text-color-dark);
+}
+
+/*Primera Fila*/
+.f1c1, .f1c3 {
+    background-color: var(--gray-2);
+    color: var(--text-color-dark);
+}
+.f1c2 {
+    background-color: var(--gray-3);
+    color: var(--text-color-dark);
+}
+
+/*Segunda Fila*/
+.f2c1, .f2c3 {
+    background-color: var(--gray-3);
+    color: var(--text-color-dark);
+}
+.f2c2 {
+    background-color: var(--gray-5);
+    color: var(--text-color-dark);
+}
+
+/*Tercera Fila*/
+.f3c1, .f3c3 {
+    background-color: var(--gray-4);
+    color: var(--text-color-dark);
+}
+.f3c2 {
+    background-color: var(--gray-6);
+    color: var(--text-color-dark);
+}
+
+
+/*Cuarta Fila*/
+.f4c1, .f4c3 {
+    background-color: var(--gray-5);
+    color: var(--text-color-dark);
+}
+.f4c2 {
+    background-color: var(--gray-7);
+    color: var(--text-color-light);
+}
+
+/*Quinta Fila*/
+.row5 {
+    text-wrap: nowrap;
+    text-align: center;
+}
+.f5c3 {
+    background-color: var(--gray-4);
+    color: var(--text-color-dark);
+}
+.f5c2, .f5c4 {
+    background-color: var(--gray-8);
+    color: var(--text-color-light);
+}   
+.f5c1, .f5c5 {
+    background-color: var(--gray-6);
+    color: var(--text-color-dark);
+}
