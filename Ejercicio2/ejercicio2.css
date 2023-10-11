@@ -30,3 +30,8 @@ body {
     background-color: var(--gray-6);
     color: var(--text-color-dark);
 }
+.navegation {
+    position: fixed;
+    left: 0;
+    margin: 20px;
+}

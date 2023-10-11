@@ -12,3 +12,8 @@
     --text-color-light: #FFFFFF;
   
 }
+a {
+    align-items: center;
+    cursor: pointer;
+    font-size: .5em;
+}
